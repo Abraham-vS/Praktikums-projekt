@@ -1,6 +1,5 @@
 body{
     margin:0;
-    background-color: black;
 }
 
 #HEADER{
@@ -23,10 +22,50 @@ body{
     margin-top: 3vh;
 }
 
-#search-bar
+#search-bar{
+    width: 40vh;
+    height:5vh;
+}
 
 #back-img{
     width:100%;
     height: 100vh;
     object-fit: cover;
+    position: absolute;
+    z-index: -2;
+}
+
+.grid-container{
+    z-index: 3;
+    display:grid;
+    justify-content: space-between;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: auto;
+    grid-template-areas: "a1 a2 a3 a4"
+                         "b1 b2 b3 b4"
+                         "c1 c2 c3 c4";
+    gap: 10px 10px;
+    background-color: aqua;
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 10%;
+    width:80%
+}
+
+.grid-item{
+    margin-top: 10vh;
+    color: black;
+    display: inline-block;
+    position: relative;
+    width:80px;
+    margin-left:1vh;
+}
+
+.grid-item-1{
+    grid-area:a1;
+    background-color: rgb(139, 45, 98);
+}
+
+.grid-item-2{
+    background-color: rgb(41, 161, 89);
 }
