@@ -1,0 +1,43 @@
+body{
+    margin:0;
+}
+
+#logo{
+    height:10vh;
+    width: 10vh;
+    position:absolute;
+}
+
+#überschrift{
+    margin-left: 15vh;
+}
+
+#HEADER{
+    width:100%;
+    background-color:white;
+    height:10vh;
+    position:absolute;
+
+}
+
+.Verlinkung{
+    color: white;
+    text-decoration: none;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    padding:10px;
+}
+
+#CONTENT{
+    position:absolute;
+    margin-top: 30vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#back-img{
+    width:100%;
+    height: 100vh;
+    object-fit: cover;
+}
