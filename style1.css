@@ -1,6 +1,6 @@
 body{
     margin:0;
-    background-image: url("Bilder/background-img1.jpg");
+    background-color: rgb(114, 105, 105);
 }
 
 #HEADER{
@@ -60,12 +60,17 @@ body{
 .grid-container{
     z-index: 3;
     display:grid;
-    justify-content: space-between;
-    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
     position: absolute;
     margin-top: 20vh;
     margin-left: 10%;
     width:80%
+}
+
+.grid-container > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
 .grid-item{
@@ -80,7 +85,7 @@ body{
 }
 
 .grid-item:hover{
-    margin-top: 10vh;
+    margin-top: 8vh;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content:center;
@@ -88,23 +93,15 @@ body{
     position: relative;
     width:22vh;
     height:22vh;
+    margin-left: -20px;
 
 }
 
-@media (max-width:700px) {
-    .grid-container{
-        z-index: 3;
-        display:grid;
-        justify-content: space-between;
-        grid-template-columns: 50px;
-        position: absolute;
-        margin-top: 20vh;
-        margin-left: 10%;
-        width:20%;
-    }
+.hide{
+    display:none;
 }
 
-.grid-item > span{
+.grid-item > a{
     position:relative;
 }
 
