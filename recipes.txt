@@ -1,0 +1,22 @@
+{
+    "0": {
+        "id": "65f44f8a99b13",
+        "name": "d",
+        "zutaten": "f"
+    },
+    "65f451c2c6454": {
+        "id": "65f451c2c6454",
+        "name": "g",
+        "zutaten": "h"
+    },
+    "65f451e367d1d": {
+        "id": "65f451e367d1d",
+        "name": "g",
+        "zutaten": "h"
+    },
+    "65f451e92fd7b": {
+        "id": "65f451e92fd7b",
+        "name": "hjjhj",
+        "zutaten": "ghjgj"
+    }
+}

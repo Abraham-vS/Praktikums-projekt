@@ -9,42 +9,42 @@
 </head>
 <body>
     <div id="HEADER">
-        <a href="startseite.html"><img id="logo" src="Bilder/logo-img.png"></a>
+        <a href="startseite.php"><img id="logo" src="Bilder/logo-img.png"></a>
         <select id="Kategorien-dropdown">
             <option value="bilder">Lorem </option-value>
-            <option value="bilder">Lorem </option-value>
-            <option value="bilder">Lorem </option-value>
+            <option value="bilder">Loremn </option-value>
+            <option value="bilder">Loremm </option-value>
         </select>
         <input id="search-bar">
         <h1>Rezept-suche</h1>
     </div>
     <div id="CONTENT">
         <div class="grid-container">
-            <a href="3.unterseite.html">
+            <a href="3.unterseite.php">
                 <div id="item-1" class="grid-item">
                     <img class="eintrag-img" src="Bilder/cake-img.jpg">
                      Lorem ipsum
                 </div>
             </a>
-            <a href="3.unterseite.html">
+            <a href="3.unterseite.php">
                 <div id="item-1" class="grid-item">
                     <img class="eintrag-img" src="Bilder/cake-img.jpg">
                      Lorem ipsum
                 </div>
             </a>
-            <a href="3.unterseite.html">
+            <a href="3.unterseite.php">
                 <div id="item-1" class="grid-item">
                     <img class="eintrag-img" src="Bilder/cake-img.jpg">
                      Lorem ipsum
                 </div>
             </a>
-            <a href="3.unterseite.html">
+            <a href="3.unterseite.php">
                 <div id="item-1" class="grid-item">
                     <img class="eintrag-img" src="Bilder/cake-img.jpg">
                      Lorem ipsum
                 </div>
             </a>
-            <a href="3.unterseite.html">
+            <a href="3.unterseite.php">
                 <div id="item-1" class="grid-item">
                     <img class="eintrag-img" src="Bilder/cake-img.jpg">
                      Lorem ipsum

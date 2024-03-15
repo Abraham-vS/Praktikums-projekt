@@ -8,7 +8,7 @@
 </head>
 <body>
     <div id="HEADER">
-        <a href="startseite.html"><img id="logo" src="Bilder/logo-img.png"></a>
+        <a href="startseite.php"><img id="logo" src="Bilder/logo-img.png"></a>
     </div>
     <div id="CONTENT">
         <h1 class="name">Lorem</h1>
