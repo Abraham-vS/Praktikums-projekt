@@ -20,6 +20,7 @@ body{
 
 #überschrift{
     margin-left: 15vh;
+    position: absolute;
 }
 
 .CONTENT {
@@ -29,9 +30,9 @@ body{
     z-index:5;
 }
 
-button{
+.hinzufügen{
     display:block;
-    margin-top:4vh;
+    margin-top:50vh;
     width: 20vh;
     height:7vh;
     border-color: rgb(255, 255, 255);
@@ -50,4 +51,21 @@ button{
     filter: brightness(0.9);
     z-index:-1;
     position: absolute;
+}
+
+.namensfeld{
+    position:absolute;
+    width: 20vh;
+}
+
+.Zutatenfeld{
+    margin-top:6vh;
+    position:absolute;
+    width: 12vh;
+    height: 4vh;
+}
+
+.neueZutat{
+    height: 30px;
+    margin-top: 18vh;
 }

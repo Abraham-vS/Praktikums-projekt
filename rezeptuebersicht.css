@@ -1,6 +1,6 @@
 body{
     margin:0;
-    background-color: rgb(114, 105, 105);
+    background-color: rgb(148, 136, 136);
 }
 
 #HEADER{
@@ -65,7 +65,8 @@ body{
     position: absolute;
     margin-top: 20vh;
     margin-left: 10%;
-    width:80%
+    width:80%;
+    
 }
 
 .grid-container > a{
@@ -79,22 +80,18 @@ body{
     display: flex;
     justify-content:center;
     align-items:center;
-    position: relative;
     width:20vh;
     height:20vh;
 }
 
 .grid-item:hover{
-    margin-top: 8vh;
+    margin-top: 9vh;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content:center;
     align-items:center;
-    position: relative;
-    width:22vh;
-    height:22vh;
-    margin-left: -20px;
-
+    width:20vh;
+    height:20vh;
 }
 
 .hide{

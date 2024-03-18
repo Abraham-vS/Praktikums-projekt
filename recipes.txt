@@ -1,22 +1,22 @@
 {
-    "0": {
-        "id": "65f44f8a99b13",
-        "name": "d",
-        "zutaten": "f"
+    "65f8373f82b49": {
+        "id": "65f8373f82b49",
+        "name": "Apfelkuchen",
+        "zutaten": "Aepfel"
     },
-    "65f451c2c6454": {
-        "id": "65f451c2c6454",
-        "name": "g",
-        "zutaten": "h"
+    "65f8374a9fd3c": {
+        "id": "65f8374a9fd3c",
+        "name": "Brot",
+        "zutaten": "mehl"
     },
-    "65f451e367d1d": {
-        "id": "65f451e367d1d",
-        "name": "g",
-        "zutaten": "h"
+    "65f8464f2eea2": {
+        "id": "65f8464f2eea2",
+        "name": "Bananenshake",
+        "zutaten": "Bananen"
     },
-    "65f451e92fd7b": {
-        "id": "65f451e92fd7b",
-        "name": "hjjhj",
-        "zutaten": "ghjgj"
+    "65f8467e8ea06": {
+        "id": "65f8467e8ea06",
+        "name": "birnenkuchen",
+        "zutaten": "birnen"
     }
 }
