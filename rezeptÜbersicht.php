@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rezepte-anzeigen</title>
-    <link rel="stylesheet" href="rezeptuebersicht.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/rezeptuebersicht.css">
 </head>
 
 <body>
@@ -28,6 +29,7 @@
         $text = file_get_contents('recipes.txt', true);
         $rezepte = json_decode($text, true);
     };
+    $id = 0;
     foreach ($rezepte as $row) {
         include 'Components/card.php';
     }

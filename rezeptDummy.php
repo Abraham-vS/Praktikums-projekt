@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rezepte-anzeigen</title>
-    <link rel="stylesheet" href="rezeptDummy.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/rezeptDummy.css">
 </head>
 <body>
     <div id="HEADER">
@@ -18,11 +19,24 @@
                 $text = file_get_contents('recipes.txt', true);
                 $rezepte = json_decode($text, true);
             };
+            $i = -1;
+            
+            $id = file_get_contents('test.txt', true);
+            $id = json_decode($id, true);
+
+            foreach ($rezepte as $row){
+                $i++;
+                if ($id > $i){
+                $name = $row['name'];
+                $zutaten = $row['zutaten']
+                ;}
+            ;}
         echo"
-        <h1 class='name'>$row[name]</h1>
+        <h1 class='name'>$name</h1>
         <img class='cake-img' src='Bilder/cake-img.jpg'>
-        <div class='Zutaten'>$row[zutaten]</div>
+        <div class='Zutaten'>$zutaten</div>
         <div class='Kochanweisung'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident sint accusantium ducimus minima, quidem nostrum! Aspernatur aliquam eius animi, sint illo quam assumenda dolore nihil voluptatum voluptate non saepe sit.</div>
+        
         "
         ?>
     </div>

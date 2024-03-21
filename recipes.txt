@@ -18,5 +18,35 @@
         "id": "65f8467e8ea06",
         "name": "birnenkuchen",
         "zutaten": "birnen"
+    },
+    "65faa91ed8acb": {
+        "id": "65faa91ed8acb",
+        "name": "Curry",
+        "zutaten": "reis"
+    },
+    "65fab40da99a1": {
+        "id": "65fab40da99a1",
+        "name": "s",
+        "zutaten": "d"
+    },
+    "65fab47f241ad": {
+        "id": "65fab47f241ad",
+        "name": "s",
+        "zutaten": "s"
+    },
+    "65fab49a3c780": {
+        "id": "65fab49a3c780",
+        "name": "s",
+        "zutaten": "s"
+    },
+    "65fac15d39b2b": {
+        "id": "65fac15d39b2b",
+        "name": "s",
+        "zutaten": "s"
+    },
+    "65fac18a044a7": {
+        "id": "65fac18a044a7",
+        "name": "s",
+        "zutaten": "f"
     }
 }

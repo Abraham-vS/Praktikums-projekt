@@ -6,12 +6,7 @@
 
 }
 
-#logo{
-    height:10vh;
-    width: 10vh;
-    position:absolute;
 
-}
 
 #CONTENT{
     background-color: rgb(255, 255, 255);
@@ -26,9 +21,9 @@
 }
 
 body{
-    margin:0;
-    justify-content: center;
-    display:flex;
+margin:0;
+justify-content: center;
+display:flex;
 }
 
 #back-img{
