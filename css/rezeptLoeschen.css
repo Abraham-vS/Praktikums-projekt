@@ -1,0 +1,25 @@
+#HEADER{
+    width:100%;
+    background-color:rgb(39, 35, 35);
+    height:10vh;
+    position:absolute;
+
+}
+
+
+#CONTENT{
+    position:absolute;
+    margin-top: 10vh;
+    align-items: center;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border-style: solid;
+}
+
+
+h3{
+    margin-left: 20%;
+    color:white;
+    font-size: 150%;
+}

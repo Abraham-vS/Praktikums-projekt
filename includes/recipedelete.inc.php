@@ -11,12 +11,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
    try {
        
 
-        $query = "INSERT INTO recipes (names, zutaten, kochanweisung, kategorie) VALUES
-        ( ?, ?, ?, ?)";
+        $query = "DELETE FROM recipes WHERE names = :names ";
 
         $stmt = $pdo->prepare($query);
 
-        $stmt->execute([$name, $zutaten, $kochanweisung, $kategorie]);
+        $stmt->bindparam(":names",$name);
+
+        $stmt->execute();
 
         $pdo = null;
         $stmt = null;

@@ -35,34 +35,30 @@ display:flex;
     filter:brightness(0.9);
 }
 
-.name{
-    position: absolute;
-    margin-top: 2px;
-}
-
-.Zutaten{
-    position: absolute;
-    margin-top: 50vh;
-}
-
-.Kochanweisung{
-    position: absolute;
-    margin-top: 70vh;
-}
-
-.cake-img{
+.eintrag-img{
     width:64vh;
     height:36vh;
     position: absolute;
     margin-top: 8vh;
 }
 
+.name{
+    position: absolute;
+    margin-top: 2px;
+}
+
+.untererText{
+    position: absolute;
+    margin-top: 50vh;
+}
+
+
 @media (max-width: 700px) {
     #CONTENT{
         width:80%;
         height:100%;
     }
-    .cake-img{
+    .eintrag-img{
         width: 320px;;
         height:180px;
     }

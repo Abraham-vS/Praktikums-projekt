@@ -12,30 +12,36 @@
 <body>
     <div id="HEADER">
         <a href="index.php"><img id="logo" src="Bilder/logo-img.png"></a>
-        <select id="Kategorien-dropdown">
-            <option value="bilder">Lorem </option-value>
-            <option value="bilder">Loremn </option-value>
-            <option value="bilder">Loremm </option-value>
-        </select>
-        <input type="search" id="search-bar">
-        <h1>Rezept-suche</h1>
+        <div class="search-bar">
+                <form action="search.php" method="post">
+                   <label for="search">Search for recipe:</label>
+                    <input id="search" type="text" name="recipesearch" placeholder="type in category..." autocomplete="OFF">
+                    <button>Search</button>
+                </form>
+        </div>
+        <div class="delete">
+            <a href="rezeptLoeschen.php">Delete a recipe</a>
+        </div>
+
     </div>
-    <div id="CONTAINER">
+    <div id="CONTENT">
     <div class='grid-container'>
     <?php
-    $rezepte = [];
 
-    if (file_exists('recipes.txt')) {
-        $text = file_get_contents('recipes.txt', true);
-        $rezepte = json_decode($text, true);
-    };
-    $id = 0;
-    foreach ($rezepte as $row) {
-        include 'Components/card.php';
+include("includes/dbh.inc.php");
+
+$query = "SELECT * FROM recipes;";
+$statement = $pdo->prepare($query);
+$statement->execute();
+
+$result = $statement->fetchAll(PDO::FETCH_OBJ);
+if($result){
+    foreach($result as $row)
+    {
+        include "Components/card.php";
     }
-    ?>
-    </div>
-    </div>
+} 
+ ?>
 </body>
 
 </html>

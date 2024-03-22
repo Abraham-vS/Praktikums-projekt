@@ -8,38 +8,30 @@ body{
     background-color:rgb(39, 35, 35);
     height:10vh;
     position:absolute;
+    display:flex;
 
 }
 
+label{
+    color:white;
+}
 
-#Kategorien-dropdown{
+.search-bar{
     margin-left:15vh;
-    margin-top: 2vh;
-    height:5vh;
-}
-
-#search-bar{
-    width: 30%;
-    margin-top: 2vh;
+    margin-top: 4vh;
     height:5vh;
     position:absolute;
 }
 
-#HEADER > h1 {
-    color:white;
-    position: absolute;
-    display:inline-block;
-    margin-left:40%;
-}
 
 .eintrag-img{
     height:10vh;
     width: 10vh;
-    position:relative;
+    position:absolute;
     border-color: black;
     border-radius: 1px;
     border-style: solid;
-
+    
 }
 
 #back-img{
@@ -68,6 +60,11 @@ body{
     color: rgb(0, 0, 0);
 }
 
+.text{
+    font-size: 14px;
+    position:absolute;
+}
+
 .grid-item{
     margin-top: 10vh;
     background-color: rgb(255, 255, 255);
@@ -88,15 +85,23 @@ body{
     height:20vh;
 }
 
-.hide{
-    display:none;
-}
-
-.grid-item > a{
-    position:relative;
-}
 
 .grid-item > img{
     position:absolute;
     margin-bottom:15vh;
+}
+
+.delete{
+    position: absolute;
+    display: inline-block;
+    margin-top: 4vh;
+    margin-left: 60%;
+    background-color: rgb(255, 253, 253);
+    border-radius: 10px;
+    padding:5px;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
 }
